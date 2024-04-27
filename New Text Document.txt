@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    n = int(input())
+squares_list=[]
+
+for i in range(0,n):
+    squares_list.append(i**2)
+    
+for i in squares_list:
+    print(i)
